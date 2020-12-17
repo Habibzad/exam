@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<h1>Questions</h1>
+<form action="" name="quiz">
+    <p>What is the capital of Afghanistan</p>
+    <input type="text" id="userInput" name="question1">
+    <p>What is the capital of Iran?</p>
+    <input type="radio" id="mc" name="question2" value="Tehran">Tehran<br>
+    <input type="radio" id="mc" name="question2" value="Mashad">Mashdad<br>
+
+    <p>What is the capital of Turkey?</p>
+    <input type="radio" id="mc" name="question3" value="Istanbul">Instanbul<br>
+    <input type="radio" id="mc" name="question3" value="Ankara">Ankara<br>
+    <br>
+    <input type="button" id="button" value="I am finished!" onclick="check()">
+</form>
+<div id="response">
+    <h3 id="message"></h3>
+
+</div>
+
+</body>
+<script src="main.js"></script>
+<!-- <script src="new.js"></script> -->
+
+</html>
